@@ -1,4 +1,4 @@
-object reversnums extends App {
+object Reversnums extends App {
   def reverse(x: Int): Int = {
     var myznak: Int = x
     var newlimit: String = "2147483648"
