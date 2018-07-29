@@ -16,6 +16,6 @@ object SolutionsPalindrome extends App {
     else false
   }
 
-  println(isPalindrome(1334331), "=13340001\n", isPalindrome(100031), "=100031\n", 
+  println(isPalindrome(1334331), "=1334331\n", isPalindrome(100031), "=100031\n", 
   isPalindrome(-131), "=-1331\n", isPalindrome(133331), "=133331")
 }
