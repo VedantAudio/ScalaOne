@@ -2,7 +2,6 @@ object Parents extends App {
   var myBalance: Int = 0
   
   def balance(chars: List[Char]): Boolean = {
-
     if (chars.isEmpty) {
       if (myBalance != 0) false
       else true
@@ -14,6 +13,5 @@ object Parents extends App {
       balance(chars.tail)
     }
   }
-
   println(balance("(gjfgjgfjgfj)".toList), balance("())(".toList), balance("(dfsfs(ff(sef(fdfd)fsfff".toList))
 }
