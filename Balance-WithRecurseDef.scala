@@ -15,9 +15,7 @@ object Parents extends App {
         myBalanceInto(chars.tail)
       }
     }
-
     myBalanceInto(chars)
   }
-
   println(balance("(gjfgjgfjgfj)".toList), balance("())(".toList), balance("(dfsfs(ff(sef(fdfd)fsfff)))".toList))
 }
