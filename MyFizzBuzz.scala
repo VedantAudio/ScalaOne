@@ -1,5 +1,4 @@
 import scala.collection._
-
 object MyFizzBuzz extends  App{
 
   def fizzBuzz(n: Int): List[String] = {
@@ -11,12 +10,9 @@ object MyFizzBuzz extends  App{
       else if (i%5==0) newList = "Buzz" :: newList
       else newList = i.toString :: newList
 
-
       i+=1
     }
-
     newList.reverse
   }
-
   println(fizzBuzz(30))
 }
