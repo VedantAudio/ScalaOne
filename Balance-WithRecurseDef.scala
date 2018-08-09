@@ -3,6 +3,7 @@ object Parents extends App {
   def balance(chars: List[Char]): Boolean = {
     var myBalance: Int = 0
 
+    
     def myBalanceInto(chars: List[Char]): Boolean = {
       if (chars.isEmpty) {
         if (myBalance != 0) false
