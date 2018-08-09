@@ -1,4 +1,5 @@
 object MainWindow extends App {
+  
   println("Enter speed scroll: 1 to 9 (where 0,0x second)")
   var speedScroll:Int= scala.io.StdIn.readInt()
   var x: Int = 0
