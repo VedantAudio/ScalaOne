@@ -1,4 +1,5 @@
 object SolutionsPalindrome extends App {
+  
   def isPalindrome(x: Int): Boolean = {
     if (x >= 0) {
       var xNumberChar: List[Char] = List(x).flatMap(_.toString.toList)
