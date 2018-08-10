@@ -20,3 +20,4 @@ object Parents extends App {
   }
   println(balance("(gjfgjgfjgfj)".toList), balance("())(".toList), balance("(dfsfs(ff(sef(fdfd)fsfff)))".toList))
 }
+
