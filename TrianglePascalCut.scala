@@ -30,3 +30,4 @@ object GeneratePascCut extends App {
     println(getRow(3))
 
 }
+
