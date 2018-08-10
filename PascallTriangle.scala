@@ -11,3 +11,4 @@ object PascallTriangle extends App {
     println()
   }
 }
+
